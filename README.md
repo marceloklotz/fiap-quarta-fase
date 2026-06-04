@@ -3,10 +3,11 @@
 
 Este repositório contém um conjunto de soluções em visão computacional para análise de vídeos, com foco na saúde e segurança da mulher, tendo-se em vista o escopo do desafio (Tech Challenge) apresentado no âmbito da quarta fase da Pós Tech (8IADT), da Faculdade de Informática e Administração Paulista (FIAP), conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. 
 
-A proposta do desafio foi criar um assistente especializado para processar laudos e exames médicos de uma rede hospitalar.
+A proposta do desafio foi criar um assistente especializado para processar laudos e exames médicos de uma rede hospitalar, monitorando continuamente as pacientes por meio de dados multimodais (áudio, vídeo e  texto) para identificar sinais precoces de risco específicos da saúde e segurança feminina. Dentre as funcionalidades mínimas exigidas, o grupo escolheu prioritariamente: a análise de vídeos (cirurgias ginecológicas) para identificação padrões anômalos ou sinais de desconforto; e a detectação de anomalias em sinais vitais específicos (pressão arterial em gestantes, batimentos fetais), de forma a possibilitar a equipe especializada em tempo real.
 
-documentos e apoiando decisões clínicas através 
-do assistente especializado
+
+
+laparoscopia
 
 Para tanto, utilizou-se o modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/). para análise de procedimentos clínicos e cirúrgicos,
 
