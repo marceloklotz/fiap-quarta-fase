@@ -24,6 +24,9 @@ Os membros do grupo são compostos pelos seguintes servidores da Secretaria de S
 
 O GynSurg: Gynecology Laparoscopic Surgery Dataset é um componente de reconhecimento de ações que consiste em 152 vídeos de cirurgias laparoscópicas ginecológicas, selecionados a partir de mais de 600 procedimentos registrados na Universidade Médica de Viena e na Universidade Médica de Toronto, conforme [artigo](Cornell University: https://arxiv.org/abs/2506.11356) publicado na Cornell University. Todos os vídeos foram capturados a 30 quadros por segundo (fps) com uma resolução de 1920x1080 pixels. Cada vídeo foi meticulosamente anotado por especialistas clínicos para quatro ações operatórias fundamentais: coagulação, passagem de agulha, sucção/irrigação e transecção. Adicionalmente, um subconjunto dedicado dos dados foi anotado para dois efeitos colaterais intraoperatórios — sangramento e fumaça — visando apoiar pesquisas sobre o reconhecimento de ações e eventos complexos em cirurgias laparoscópicas.
 
+Contexto: A laparoscopia ginecológica é uma cirurgia minimamente invasiva que utiliza pequenas incisões (de 0,5 a 1 cm) no abdômen para inserir uma microcâmera e instrumentos cirúrgicos. O abdômen é preenchido com gás para dar espaço e visibilidade ao cirurgião. Ela permite ao médico examinar os órgãos internos da pelve e realizar procedimentos com mais precisão, menos dor e recuperação mais rápida que a cirurgia aberta. Suas principais indicações na ginecologia incluem: endometriose (doença inflamatória), infertilidade, miomas e cistos, dor pélvica crônica, gravidez ectópica (abordagem cirúrgica de escolha para resolver a gestação que ocorre fora da cavidade uterina) e histerectomia (remoção do útero de forma menos traumática).
+
+**CTU-UHB Intrapartum CTG Database (2014)**
 
 
 
