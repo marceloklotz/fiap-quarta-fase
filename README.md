@@ -18,7 +18,10 @@ Os membros do grupo são compostos pelos seguintes servidores da Secretaria de S
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com)
 
-## 🎲 Base de dados
+## 🎲 Bases de dados
+
+**Gynecology Laparoscopic Surgery**
+O GynSurg: Gynecology Laparoscopic Surgery Dataset é um componente de reconhecimento de ações que consiste em 152 vídeos de cirurgias laparoscópicas ginecológicas, selecionados a partir de mais de 600 procedimentos registrados na Universidade Médica de Viena e na Universidade Médica de Toronto, conforme [artigo](Cornell University: https://arxiv.org/abs/2506.11356) publicado na Cornell University. Todos os vídeos foram capturados a 30 quadros por segundo (fps) com uma resolução de 1920x1080 pixels. Cada vídeo foi meticulosamente anotado por especialistas clínicos para quatro ações operatórias fundamentais: coagulação, passagem de agulha, sucção/irrigação e transecção. Adicionalmente, um subconjunto dedicado dos dados foi anotado para dois efeitos colaterais intraoperatórios — sangramento e fumaça — visando apoiar pesquisas sobre o reconhecimento de ações e eventos complexos em cirurgias laparoscópicas.
 
 
 
