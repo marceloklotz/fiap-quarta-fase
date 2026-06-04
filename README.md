@@ -28,6 +28,11 @@ Contexto: A laparoscopia ginecológica é uma cirurgia minimamente invasiva que 
 
 Motivação técnica: o dataset permite a visualização por vídeo, já que a cirurgia laparoscópica é realizada com o auxílio de câmeras que geram vídeos de alta resolução (1920x1080 pixels) do interior do corpo da paciente, a partir de instrumentação especializada: o procedimento utiliza instrumentos específicos que a IA deve ser capaz de detectar, como pinças (graspers), tesouras, agulhas, irrigadores, porta-agulhas e ganchos (hooks). Além disso, durante os procedimentos cirúrgicos são realizadas ações como coagulação, passagem de agulha, sucção/irrigação e transecção (corte), que permitem o cumprimento do desafio proposto para a detecção de anomalias e intercorrências, como sangramentos e mesmo a presença de fumaça. Isso porque a laparoscopia, gases são usados para insuflar a cavidade abdominal, criando um espaço de trabalho seguro para a visualização dos órgãos. A fumaça surge como subproduto do uso de instrumentos cirúrgicos de corte/cautério, sendo a detecção importante para evitar problemas respiratórios pelas equipes e até mesmo a obstrução das imagens das câmeras pelos gases.
 
+Referências bibliográficas
+Título: GynSurg: A Comprehensive Gynecology Laparoscopic Surgery Dataset
+Autores: Sahar Nasirihaghighi and Negin Ghamsarian and Leonie Peschek and Matteo Munari and  Heinrich Husslein and Raphael Sznitman and Klaus Schoeffmann
+Ano: 2025
+
 **CTU-UHB Intrapartum CTG Database (2014)**
 
 
