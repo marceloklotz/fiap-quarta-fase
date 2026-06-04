@@ -33,7 +33,7 @@ Referências bibliográficas
 * Autores: Sahar Nasirihaghighi and Negin Ghamsarian and Leonie Peschek and Matteo Munari and  Heinrich Husslein and Raphael Sznitman and Klaus Schoeffmann
 * Ano: 2025
 * Fonte: https://ftp.itec.aau.at/datasets/GynSurge/
-* Licença: CC BY-NC-ND 4.0 (Atribuição-NãoComercial-SemDerivações 4.0 Internacional)
+* Licença: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (Atribuição-NãoComercial-SemDerivações 4.0 Internacional)
 
 **CTU-UHB Intrapartum CTG Database (2014)**
 
