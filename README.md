@@ -5,15 +5,9 @@ Este repositório contém um conjunto de soluções em visão computacional para
 
 A proposta do desafio foi criar um assistente especializado para processar laudos e exames médicos de uma rede hospitalar, monitorando continuamente as pacientes por meio de dados multimodais (áudio, vídeo e  texto) para identificar sinais precoces de risco específicos da saúde e segurança feminina. Dentre as funcionalidades mínimas exigidas, o grupo escolheu prioritariamente: a análise de vídeos (cirurgias ginecológicas) para identificação padrões anômalos ou sinais de desconforto; e a detectação de anomalias em sinais vitais específicos (pressão arterial em gestantes, batimentos fetais), de forma a possibilitar a equipe especializada em tempo real.
 
+Para tanto, utilizou-se o modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/), apoiado por serviços cognitivos gerenciados em nuvem por meio do Azure Cognitive Services.
 
 
-laparoscopia
-
-Para tanto, utilizou-se o modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/). para análise de procedimentos clínicos e cirúrgicos,
-
-Esta solução apresenta um sistema de monitoramento contínuo e preventivo especializado na saúde e segurança da mulher, fundamentado na análise e fusão de dados multimodais, incluindo áudio, vídeo e texto
-. Através da integração de modelos avançados de visão computacional, como o YOLOv8 customizado para análise de procedimentos clínicos e cirúrgicos, e ferramentas de processamento de voz para detecção de sinais de traumas ou distúrbios psicológicos (como depressão pós-parto e ansiedade), o sistema visa identificar precocemente riscos em saúde materna, indícios de violência doméstica e anomalias clínicas
-. Apoiada por serviços gerenciados em nuvem, como o Azure Cognitive Services, a plataforma processa informações sensíveis sob rigorosos padrões de privacidade para gerar alertas em tempo real às equipes médicas especializadas, otimizando a tomada de decisão e o cuidado preventivo
 
 
 
