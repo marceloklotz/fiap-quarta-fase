@@ -3,13 +3,11 @@
 
 Este repositório contém um conjunto de soluções em visão computacional para análise de vídeos, com foco na saúde e segurança da mulher, tendo-se em vista o escopo do desafio (Tech Challenge) apresentado no âmbito da quarta fase da Pós Tech (8IADT), da Faculdade de Informática e Administração Paulista (FIAP), conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. 
 
-A proposta do desafio foi criar um assistente especializado para processar laudos e exames médicos de uma rede hospitalar, monitorando continuamente as pacientes por meio de dados multimodais (áudio, vídeo e  texto) para identificar sinais precoces de risco específicos da saúde e segurança feminina. Dentre as funcionalidades mínimas exigidas, o grupo escolheu o seguinte: 
+A proposta do desafio foi criar um assistente especializado para processar laudos e exames médicos de uma rede hospitalar, monitorando continuamente as pacientes por meio de dados multimodais (áudio, vídeo e  texto) para identificar sinais precoces de risco específicos da saúde e segurança feminina. Dentre as *funcionalidades mínimas* exigidas, o grupo escolheu a seguinte metodologia: 
 
-1. A análise de vídeos para identificação de padrões anômalos ou sinais de desconforto por meio do dataset [GynSyurge](https://ftp.itec.aau.at/datasets/GynSurge/) de cirurgias ginecológicas de laparacospia, vislumbrando a entrega técnica (requisito obrigatório) de  detecção de complicações, sangramento anômalo. O dataset foi publicizado a partir da Cornell University: https://arxiv.org/abs/2506.11356
-2.  
-3. A detectação de anomalias em sinais vitais de pressão arterial em gestantes e de batimentos fetais, de forma a possibilitar a equipe especializada em tempo real, através do 
-
-Para tanto, utilizou-se o modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/), apoiado por serviços cognitivos gerenciados em nuvem por meio do Azure Cognitive Services.
+1. A análise de vídeos para identificação de padrões anômalos ou sinais de desconforto por meio do dataset [GynSyurge](https://ftp.itec.aau.at/datasets/GynSurge/) de cirurgias ginecológicas de laparacospia, vislumbrando a entrega técnica (requisito obrigatório) de  detecção de complicações, sangramento anômalo. O dataset foi publicizado a partir da Cornell University: https://arxiv.org/abs/2506.11356.
+2.  A detectação de anomalias em sinais vitais de pressão arterial em gestantes e de batimentos fetais a partir da análise do [CTU-UHB Intrapartum CTG Database (2014)](https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/), da Czech Technical University (CTU) in Prague e da University Hospital in Brno (UHB), de forma a possibilitar o cumprimento dos seguintes **objetivos**: detecção precoce de riscos em saúde materna e ginecológica; e aplicação de técnicas de detecção de anomalias em tempo real para  monitoramento preventivo específico.
+3. Uso do modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/), apoiado por serviços cognitivos gerenciados em nuvem por meio do **Azure Cognitive Services** para integração, resguaradando os padrões de privacidade e segurança para dados sensíveis exigidos.
 
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
