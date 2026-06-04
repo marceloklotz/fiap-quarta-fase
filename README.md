@@ -7,16 +7,6 @@ A proposta do desafio foi criar um assistente especializado para processar laudo
 
 Para tanto, utilizou-se o modelo de arquitetura de modelo de visão computacional desenvolvido pela Ultralytics conhecido como [YOLOv8](https://yolov8.com/), apoiado por serviços cognitivos gerenciados em nuvem por meio do Azure Cognitive Services.
 
-
-
-
-
-## 📝 Descrição do Desafio
-
-A proposta do desafio foi desenvolver um assistente virtual médico personalizado, treinado com dados próprios da instituição, capaz de apoiar condutas clínicas, responder dúvidas de profissionais e sugerir procedimentos alinhados aos protocolos internos de atendimento feminino. O desafio também envolve a criação de fluxos automatizados, seguros e integrados, utilizando LangChain, para coordenar ações como verificação de exames ginecológicos pendentes, recomendação de tratamentos reprodutivos, emissão de alertas para possíveis casos de violência doméstica e articulação de atendimento multidisciplinar, considerando as particularidades e sensibilidades do cuidado à mulher.
-
-Para tanto, utilizou-se o fine-tuning de LLMs com dados específicos da área e implementando fluxos automatizados de decisão clínica através do LangChain, sempre respeitando protocolos de segurança, privacidade e sensibilidade cultural específicos do atendimento feminino, conforme instruções da disciplina da Pós Tech (8IADT) FIAP [(PDF)](https://github.com/marceloklotz/fiap-terceira-fase-ssp-df/blob/main/Desafio-8IADT-Fase3-TechChallenge-Secretaria.pdf).
-
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
 
@@ -28,14 +18,9 @@ Os membros do grupo são compostos pelos seguintes servidores da Secretaria de S
 
 ## 🎲 Base de dados
 
-Foi utilizado um dataset sintético (PubMedQA) servindo a dois propósitos complementares: (1) garantir cobertura de temas clinicamente críticos em português (o PubMedQA é majoritariamente em inglês); e (2) fornecer dados de treinamento baseados nas diretrizes brasileiras (FEBRASGO, INCA, Ministério da Saúde) que são as referências aplicáveis no contexto hospitalar nacional. Isso porque dados reais de pacientes são protegidos pela LGPD (Lei Geral de Proteção de Dados) e por normas do CFM (Conselho Federal de Medicina). Em um protótipo acadêmico é inviável usar prontuários reais. Dados sintéticos — gerados manualmente por especialistas ou com auxílio de IA, mas revisados — permitem desenvolver e testar pipelines sem expor informações sensíveis. Esta é prática padrão em pesquisa de IA em saúde.
 
-O PubMedQA é um benchmark biomédico amplamente reconhecido na comunidade científica. Ele contém 1.000 perguntas clínicas extraídas de artigos publicados no PubMed (base de dados de literatura médica da Biblioteca Nacional de Medicina dos EUA).
 
-O desafio exige que o fine-tuning seja realizado com 'dados específicos da área', e o PubMedQA fornece literatura biomédica revisada por pares, com fonte citável (PMID) — atendendo ao critério de “explainability”. Aproximadamente 27% dos registros cobrem temas de saúde feminina diretamente relevantes (ginecologia, obstetrícia, contracepção, câncer de mama, violência, saúde mental materna). O download é feito diretamente do GitHub oficial do projeto, sem necessidade de Google Drive.
 
-O relatório técnico detalha como o código seleciona os registros para aplicar filtros relevantes, resultando em um subconjunto de registros biomédicos com alta relevância para o domínio do trabalho, que foram então convertidos para o formato interno do projeto. Além disso, trata do mapeamento das categorias e dos registros criados manualmente em português, baseados em diretrizes brasileiras e internacionais.
-  
 ## 📒 Relatório técnico
 
 O Relatório Técnico detalha a fundamentação teórica e a implementação prática do assistente, descrevendo uma arquitetura modular em cinco etapas: pré-processamento com anonimização (LGPD), fine-tuning com LoRA, recuperação de informações (RAG/FAISS), orquestração com LangChain e a criação de quatro fluxos clínicos via LangGraph.
