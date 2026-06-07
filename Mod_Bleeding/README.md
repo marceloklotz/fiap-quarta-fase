@@ -4,8 +4,8 @@ Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-f
 
 Contexto médico: a laparoscopia é uma cirurgia minimamente invasiva que utiliza pequenas incisões (de 0,5 a 1 cm) no abdômen para inserir uma microcâmera e instrumentos cirúrgicos. Esse tipo de cirurgia é indicado para endometriose (doença inflamatória), infertilidade, miomas e cistos, dor pélvica crônica, gravidez ectópica (abordagem cirúrgica de escolha para resolver a gestação que ocorre fora da cavidade uterina) e histerectomia (remoção do útero de forma menos traumática).
 
-## 📋 Descrição do Modelo
-A ferramenta realiza a análise de vídeos cirúrgicos em tempo real para identificar a ocorrência de sangramentos intraoperatórios. O modelo foi treinado utilizando a arquitetura YOLOv8 (versão Nano - yolov8n-cls.pt), otimizado para oferecer o melhor equilíbrio entre velocidade de inferência e capacidade de aprendizado.  
+## 📋 Descrição técnica do modelo
+O modelo foi treinado utilizando a arquitetura YOLOv8 (versão Nano - yolov8n-cls.pt), otimizado para oferecer o melhor equilíbrio entre velocidade de inferência e capacidade de aprendizado. 
 
 ## ⚠️ Aviso importante
 Este modelo foi desenvolvido exclusivamente para fins educacionais. A ferramenta não substitui validações médicas, não está apta para embasar decisões clínicas, realizar diagnósticos ou apoiar triagens.
