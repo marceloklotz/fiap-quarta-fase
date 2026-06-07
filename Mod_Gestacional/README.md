@@ -1,4 +1,4 @@
-# 🏫👨‍💻 Módulo para Acompanhamento Gestacional
+# 🤰👨‍💻 Módulo para Acompanhamento Gestacional
 
 Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo para Acompanhamento Gestacional**, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
 
