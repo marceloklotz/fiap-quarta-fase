@@ -27,15 +27,16 @@ Preparação dos dados: Para o treinamento com YOLOv8, foi realizada a extraçã
 
 A simulação em tempo real da detecção de sangramentos foi realizada em ambiente local, utilizando como base a reprodução de um vídeo cirúrgico que não participou do conjunto de treinamento, demonstrando a capacidade do modelo em identificar o evento de forma automatizada. O vídeo foi extraído do [World Laparoscopy Hospital - WLH](https://www.laparoscopyhospital.com/laparoscopicvideodownload.html).
 
+
+<p align="center"> Sangramento não detectado </p>
 <p align="center">
   <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/assets/non_bleeding.png?raw=true" alt="Sangramento detectado">
 </p>
-<p align="center"> Sangramento não detectado </p>
 
+<p align="center"> Sangramento detectado </p>
 <p align="center">
   <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/assets/bleeding.png?raw=true" alt="Sangramento detectado">
 </p>
-<p align="center"> Sangramento detectado </p>
 
 ## 🗂️ Arquivos adicionais
 
