@@ -40,9 +40,9 @@ A simulação em tempo real da detecção de sangramentos foi realizada em ambie
 
 ## 🗂️ Arquivos relacionados
 
-* best.pt é o modelo treinado com o YOLOv8.
-* bleeding-detection.py é o script para simulação do modelo com detecção em tempo real.
-* extract_frames.py é o script utilizado durante a etapa de preparação dos dados (mp4 para jpg).
+* [best.pt](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/best.pt) é o modelo treinado com o YOLOv8.
+* [bleeding-detection.py](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/bleeding-detection.py) é o script para simulação do modelo com detecção em tempo real.
+* [extract_frames.py](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/extract_frames.py) é o script utilizado durante a etapa de preparação dos dados (mp4 para jpg).
 
 Os arquivos gerados em JPG (frames extraídos dos vídeos originais) podem ser baixados pelo seguinte link:
 
