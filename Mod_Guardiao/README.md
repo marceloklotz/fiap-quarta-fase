@@ -1,8 +1,10 @@
 # 🛡️👩👨‍💻 Módulo Guardião para Segurança das Mulheres
 
-Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo Guardião para Segurança das Mulheres**, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
+Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo Guardião para Análise de Voz**, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP). Esse componente foi criado para atender requisito “análise de áudio especializada para saúde da mulher” e verificação de “padrões vocais indicativos” para “atendimento a vítimas de violência”, conforme desafio (PDF)[https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf] proposto.
 
-O módulo foi criado para varrer câmeras em tempo real monitoramento ambientes com mulheres em situação de risco. O modelo é capaz de identificar armas e outros objetos que possam representar ameaça direta à integridade física de mulheres, que são detectadas automaticamente. O sistema é integrado ao LLM (GPT-4o), que gera relatórios para auxiliar as equipes policiais sobre os eventos detectado.
+Este protótipo tem potencial para futura integração a dispositivos como o Viva-Flor, atualmente utilizado pela Secretaria de Segurança Pública do Distrito Federal (SSP/DF). Esse aparelho é destinado a vítimas de violência doméstica amparadas por Medida Protetiva de Urgência (MPU) e encaminhadas para assistência pelo Ministério Público (MPDFT).
+
+Com a integração do Módulo Guardião, a análise vocal ocorreria diretamente no Viva-Flor, que acompanha a assistida como um aparelho celular comum. Ao detectar padrões de voz que indiquem perigo, o sistema emitiria um alerta automático à central de monitoramento da SSP/DF, antecipando-se à necessidade de a vítima pressionar o botão de emergência. A partir desse alerta preventivo, os agentes de monitoramento fariam a triagem e o acionamento imediato das forças policiais para o local.
 
 ## 📒 Relatório técnico
 
