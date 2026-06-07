@@ -38,7 +38,10 @@ A simulação em tempo real da detecção de sangramentos foi realizada em ambie
   <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/assets/bleeding.png?raw=true" alt="Sangramento detectado">
 </p>
 
-## 🗂️ Arquivos adicionais
+## 🗂️ Arquivos relacionados
+
+* O arquivo best.pt é o modelo treinado com o YOLOv8.
+* 
 
 Os arquivos gerados em JPG (frames extraídos dos vídeos originais) podem ser baixados pelo seguinte link:
 
