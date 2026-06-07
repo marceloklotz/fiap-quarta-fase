@@ -1,4 +1,4 @@
-# 🏫👨‍💻 Módulo Guardião para Segurança das Mulheres
+# 🛡️👩👨‍💻 Módulo Guardião para Segurança das Mulheres
 
 Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo Guardião para Segurança das Mulheres**, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
 
