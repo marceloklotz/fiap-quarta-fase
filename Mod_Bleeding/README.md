@@ -40,6 +40,8 @@ A simulação em tempo real da detecção de sangramentos foi realizada em ambie
 
 ## 🗂️ Arquivos relacionados
 
+* [MOD_Bleeding_Train_GPU.ipynb](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/MOD_Bleeding_Train_GPU.ipynb) versão final do notebook para treinamento do modelo com uso da T4 GPU do Google Colab.
+* [MOD_Bleeding_Train_CPU.ipynb](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/MOD_Bleeding_Train_GPU.ipynb) notebook relacionado ao primeiro modelo treinado a partir da CPU padrão do Google Colab.
 * [best.pt](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/best.pt) é o modelo final treinado com o YOLOv8, utilizando o T4 GPU do Google Colab (92,7% de acurácia).
 * [best(CPU).pt](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/best.pt) é a versão com o primeiro modelo treinado, utilizando a CPU padrão do Google Colab. (85,3% de acurácia).
 * [bleeding-detection.py](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Mod_Bleeding/bleeding-detection.py) é o script para simulação do modelo com detecção em tempo real.
