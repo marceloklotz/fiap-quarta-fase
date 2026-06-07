@@ -24,7 +24,16 @@ Preparação dos dados: Para o treinamento com YOLOv8, foi realizada a extraçã
 * Licença: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (Atribuição-NãoComercial-SemDerivações 4.0 Internacional)
 
 ## 🎥 Simulação do Modelo
-A simulação em tempo real da detecção de sangramentos foi realizada em ambiente local, utilizando como base a reprodução de um vídeo cirúrgico que não participou do conjunto de treinamento, demonstrando a capacidade do modelo em identificar o evento de forma automatizada. O vídeo foi extraído do repositírio do [World Laparoscopy Training Institute](https://www.laparoscopyhospital.com/laparoscopicvideodownload.html).
+
+A simulação em tempo real da detecção de sangramentos foi realizada em ambiente local, utilizando como base a reprodução de um vídeo cirúrgico que não participou do conjunto de treinamento, demonstrando a capacidade do modelo em identificar o evento de forma automatizada. O vídeo foi extraído do repositírio do [World Laparoscopy Hospital - WLH](https://www.laparoscopyhospital.com/laparoscopicvideodownload.html).
+
+## Arquivos adicionais
+
+Os arquivos gerados em JPG (frames extraídos dos vídeos originais) podem ser baixados pelo seguinte link:
+#link1
+
+O vídeo utilizado (fonte WLH) para simulação em tempo real também pode ser encontrato a partir do endereço:
+#link2
 
 ## 📒 Relatório técnico
 
