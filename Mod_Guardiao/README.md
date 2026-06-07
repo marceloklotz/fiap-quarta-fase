@@ -4,7 +4,7 @@ Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-f
 
 Este protótipo tem potencial para futura integração a dispositivos como o Viva-Flor, atualmente utilizado pela Secretaria de Segurança Pública do Distrito Federal (SSP/DF). Esse aparelho é destinado a vítimas de violência doméstica amparadas por Medida Protetiva de Urgência (MPU) e encaminhadas para assistência pelo Ministério Público (MPDFT).
 
-Com a integração do Módulo Guardião, a análise vocal ocorreria diretamente no Viva-Flor, que acompanha a assistida como um aparelho celular comum. Ao detectar padrões de voz que indiquem perigo, o sistema emitiria um alerta automático à central de monitoramento da SSP/DF, antecipando-se à necessidade de a vítima pressionar o botão de emergência. A partir desse alerta preventivo, os agentes de monitoramento fariam a triagem e o acionamento imediato das forças policiais para o local.
+Com a integração do Módulo Guardião, ocorreria a análise vocal diretamente no Viva-Flor, que acompanha a assistida como um aparelho celular comum. Ao detectar padrões de voz que indiquem perigo, o sistema emitiria um alerta automático à central de monitoramento da SSP/DF, antecipando-se à necessidade de a vítima pressionar o botão de emergência. A partir desse alerta preventivo, os agentes de monitoramento fariam a triagem e o acionamento imediato das forças policiais para o local, caso necessário.
 
 ## 📒 Relatório técnico
 
