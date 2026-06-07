@@ -1,4 +1,4 @@
-# 🏫👨‍💻 Módulo para Detecção de Sangramentos
+# 🩸🚨👨‍💻 Módulo para Detecção de Sangramentos
 
 Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo para Detecção de Sangramentos** em tempo real de cirurgias ginecológicas laparoscópicas, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
 
