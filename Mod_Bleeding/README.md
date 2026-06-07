@@ -41,10 +41,10 @@ A simulação em tempo real da detecção de sangramentos foi realizada em ambie
 ## 🗂️ Arquivos adicionais
 
 Os arquivos gerados em JPG (frames extraídos dos vídeos originais) podem ser baixados pelo seguinte link:
-#link1
+[dataset_yolo.zip (1,4Gb)](https://drive.google.com/file/d/1SKm4yVZyKHIwbUZf_lAPUS_eWK7bm1bt/view?usp=sharing)
 
 O vídeo utilizado (fonte WLH) para simulação em tempo real também pode ser encontrato a partir do endereço:
-#link2
+[video_cirurgia.mp4 (64Mb)](https://drive.google.com/file/d/10V_b3CBWcpIc-EKvvm_m9Uo15Xmxyquu/view?usp=drive_link)
 
 ## 📒 Relatório técnico
 
