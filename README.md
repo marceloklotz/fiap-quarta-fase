@@ -18,7 +18,7 @@ Os membros do grupo são compostos pelos seguintes servidores da Secretaria de S
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com)
 
-## 🎲 Funcionalidades e dataset
+## 🎲 Funcionalidades e datasets
 
 Cada módulo contém uma pasta contendo os arquivos relacionados (notebooks, scripts, datasets) e um README próprio. Favor, acesse as pastas dos respectivos componentes para informações complementares.
 
