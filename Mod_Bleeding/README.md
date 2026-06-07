@@ -12,7 +12,7 @@ Este modelo foi desenvolvido exclusivamente para fins educacionais. A ferramenta
 
 ## 📊 Bases de Dados
 
-O modelo utiliza o dataset GynSurg: Gynecology Laparoscopic Surgery Dataset, composto originalmente por 152 vídeos (1920x1080 a 30fps) de cirurgias ginecológicas laparoscópicas, provenientes da Universidade Médica de Viena e da Universidade Médica de Toronto.  Os vídeos destinados ao treino de classficação para detecção de sangramentos é composto por 2.041 vídeos menores (3 segundos cada), totalizando 977 registros com sangramento e 1.064 sem a presença do evento.
+O modelo utiliza o dataset GynSurg: [Gynecology Laparoscopic Surgery Dataset](https://ftp.itec.aau.at/datasets/GynSurge/), composto originalmente por 152 vídeos (1920x1080 a 30fps) de cirurgias ginecológicas laparoscópicas, provenientes da Universidade Médica de Viena e da Universidade Médica de Toronto.  Os vídeos destinados ao treino de classficação para detecção de sangramentos é composto por 2.041 vídeos menores (3 segundos cada), totalizando 977 registros com sangramento e 1.064 sem a presença do evento.
 
 Preparação dos dados: Para o treinamento com YOLOv8, foi realizada a extração de frames utilizando a biblioteca OpenCV, a uma taxa de 1 frame por segundo, totalizando 6.696 arquivos JPG utilizados para o treinamento.
 
