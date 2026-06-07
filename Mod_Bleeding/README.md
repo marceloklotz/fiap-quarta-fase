@@ -1,6 +1,6 @@
 # 🏫👨‍💻 Módulo para Detecção de Sangramentos
 
-Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do Módulo para Detecção de Sangramentos em tempo real para cirurgias ginecológicas laparoscópicas, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
+Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo para Detecção de Sangramentos** em tempo real para cirurgias ginecológicas laparoscópicas, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
 
 ## 📋 Descrição do Modelo
 A ferramenta realiza a análise de vídeos cirúrgicos em tempo real para identificar a ocorrência de sangramentos intraoperatórios. O modelo foi treinado utilizando a arquitetura YOLOv8 (versão Nano - yolov8n-cls.pt), otimizado para oferecer o melhor equilíbrio entre velocidade de inferência e capacidade de aprendizado.  
