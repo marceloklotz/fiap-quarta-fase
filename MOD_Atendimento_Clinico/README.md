@@ -2,7 +2,7 @@
 
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
 [![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](https://github.com/marceloklotz/fiap-quarta-fase/)
-[![Módulo Atendimento Clínico](https://img.shields.io/badge/1.Módulo_Atendimento_Clínico-green?style=for-the-badge)](#)
+[![Módulo Atendimento Clínico](https://img.shields.io/badge/2._Módulo_Atendimento_Clínico-green?style=for-the-badge)](#)
 
 Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo Atendimento Clínico (Análise de Áudio)**, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
 
