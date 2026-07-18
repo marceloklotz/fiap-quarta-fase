@@ -140,7 +140,7 @@ Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cad
 
 Os modelos foram submetidos a treinamentos fundamentados em bases de dados científicas de referência internacional:
 
-* **Vídeo — Dataset GynSurg:** [Gynecology Laparoscopic Surgery Dataset](https://ftp.itec.aau.at/datasets/GynSurge/). Base contendo registros cirúrgicos reais anotados por especialistas clínicos da Universidade Médica de Viena e da Universidade Médica de Toronto. Foram utilizados cerca de 2.041 recortes de vídeo curtos (~5,11 GB de dados totais) divididos estritamente em:
+* **Vídeo — Dataset GynSurg:** [Gynecology Laparoscopic Surgery Dataset](https://ftp.itec.aau.at/datasets/GynSurge/). Base contendo registros cirúrgicos reais anotados por especialistas clínicos da Universidade Médica de Viena e da Universidade Médica de Toronto. Foram utilizados cerca de 2.041 recortes de vídeos curtos (~5,11 GB de dados totais) divididos estritamente em:
   * **Treino (70%):** 684 com sangramento / 745 sem sangramento.
   * **Validação (20%):** 194 com sangramento / 213 sem sangramento.
   * **Teste (10%):** 99 com sangramento / 106 sem sangramento.
