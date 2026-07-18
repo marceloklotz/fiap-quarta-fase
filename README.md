@@ -17,7 +17,7 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
 <p align="center">
-  [<img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">](#)
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
 </p>
 <div align="center">
   <table width="2000" style="width: 2000; border-collapse: collapse;">
