@@ -5,6 +5,10 @@
 
 Este repositório contém o código-fonte e as especificações técnicas desenvolvidos no âmbito do desafio (Tech Challenge) apresentado durante a **Quarta Fase da Pós Tech (8IADT)**, da **Faculdade de Informática e Administração Paulista (FIAP)**, conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
 
+<p align="center">
+  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/infografico.png" alt="Visão geral do projeto"> 
+</p>
+
 ## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
 
 > **IMPORTANTE:** Os componentes deste repositório foram desenvolvidos exclusivamente para fins educacionais, científicos e de demonstração de viabilidade tecnológica. 
