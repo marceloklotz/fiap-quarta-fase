@@ -13,7 +13,7 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
 ## 👥 Integrantes do grupo
-Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
+Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
 
 - Alexandre Natã Vicente (**rm370024**) (ale.n.vicente@gmail.com)
 - Antônio Cláudio Almeida (**rm370052**) (antonioalmeida@gmail.com)
