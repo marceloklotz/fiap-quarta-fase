@@ -18,7 +18,7 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 
 <div align="center">
   <table width="2000px" style="width: 2000px; border-collapse: collapse;">
-    <tr bgcolor="#0066cc">
+    <tr bgcolor="#0066cc" style="width: 2000px;">
       <td align="center" style="padding: 35px 0px;">
         <font size="6" color="#0066cc"" face="sans-serif">
           <b>👥 INTEGRANTES DO GRUPO</b>
