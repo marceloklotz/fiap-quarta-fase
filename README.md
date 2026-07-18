@@ -21,12 +21,10 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
 
-
 ## 👥 Visão geral do projeto
 
 <p align="center">
-  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/sobre.gif" alt="Apresentação - Visão geral">
-  <figcaption>Apresentação com visão geral (slides gerados via NkLM)</figcaption>
+  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/sobre.gif" alt="Apresentação - Visão geral"> <figcaption>Apresentação com visão geral (slides gerados via NkLM)</figcaption>
 </p>
 
 --------
