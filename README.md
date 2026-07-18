@@ -28,6 +28,10 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
   </table>
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/INTEGRANTES_DO_GRUPO-0066cc?style=for-the-badge&logoColor=white" width="100%" height="80px" alt="Integrantes do Grupo">
+</p>
+
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
 
