@@ -26,9 +26,9 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 
 </details>
 
-```text
+```box
 
-<p align="center"> ##  👥 INTEGRANTES DO GRUPO </p>
+👥 INTEGRANTES DO GRUPO
 
 ```
 
