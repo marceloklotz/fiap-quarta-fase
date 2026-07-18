@@ -25,9 +25,9 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 ## 👥 Visão geral do projeto
 
 <p align="center">
-  <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
+  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/sobre.gif" alt="Apresentação - Visão geral">
 </p>
-<p align="center"> https://youtu.be/F-G5JFNiwdE </p>
+<p align="center"> Apresentação com visão geral (slides gerados via NkLM)</p>
 
 # 🚀 Componentes Principais
 
