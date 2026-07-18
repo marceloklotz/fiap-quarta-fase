@@ -104,7 +104,7 @@ Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cad
   * **Onde é utilizada:** No monitoramento de fluxos textuais e governança de custos.
   * **Aplicação prática:** O `tiktoken` faz a contagem preditiva exata e o corte preventivo dos tokens gerados pela transcrição do áudio clínico antes de enviá-los ao LLM, garantindo que o texto não ultrapasse a janela máxima de contexto da API e prevenindo erros de estouro de memória.
 
-## 📊 Utilidades Globais (Ambos os Módulos)
+## 🩸🎙️ Utilidades Globais (Ambos os Módulos)
 
 * **`numpy` & `pandas`**
   * **Onde são utilizadas:** Na manipulação matemática, estruturação de dados e geração de métricas.
