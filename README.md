@@ -16,15 +16,24 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
-  <table width="100%" style="width: 100%; border-collapse: collapse;">
+<div align="center">
+  <table width="2000px" style="width: 2000px; border-collapse: collapse;">
     <tr bgcolor="#0066cc">
-      <td align="center" style="padding: 25px 0px;">
-        <font size="6" color="#ffffff" face="sans-serif">
+      <td align="center" style="padding: 35px 0px;">
+        <font size="6" color="#0066cc"" face="sans-serif">
           <b>👥 INTEGRANTES DO GRUPO</b>
         </font>
       </td>
     </tr>
   </table>
+</div>
+
+<!-- Espaço para você colocar a lista logo abaixo -->
+<br>
+
+* 👤 **Integrante 1** - RM 12345
+* 👤 **Integrante 2** - RM 67890
+* 👤 **Integrante 3** - RM 11121
 
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
