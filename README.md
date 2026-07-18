@@ -26,8 +26,10 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 
 <p align="center">
   <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/sobre.gif" alt="Apresentação - Visão geral">
+  <figcaption>Apresentação com visão geral (slides gerados via NkLM)</figcaption>
 </p>
-<p align="center"> Apresentação com visão geral (slides gerados via NkLM)</p>
+
+--------
 
 # 🚀 Componentes Principais
 
