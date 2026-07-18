@@ -115,7 +115,11 @@ Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cad
 * **`numpy` & `pandas`**
   * **Onde são utilizadas:** Na manipulação matemática, estruturação de dados e geração de métricas.
   * **Aplicação prática:** O `numpy` manipula de forma veloz matrizes e tensores numéricos (sejam os pixels das imagens no OpenCV ou os arrays de ondas sonoras no Librosa). O `pandas` organiza as tabelas com o histórico das predições, taxas de acerto e logs, gerando as tabelas e dados estatísticos consolidados no relatório técnico.
- 
+
+<picture>
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
+</picture>
+
 # 📊 Datasets Utilizados
 
 Os modelos foram submetidos a treinamentos fundamentados em bases de dados científicas de referência internacional:
@@ -125,6 +129,10 @@ Os modelos foram submetidos a treinamentos fundamentados em bases de dados cient
   * **Validação (20%):** 194 com sangramento / 213 sem sangramento.
   * **Teste (10%):** 99 com sangramento / 106 sem sangramento.
 * **Áudio — Audio Recording Whisper:** [Disponível via Kaggle](https://www.kaggle.com/datasets/najamahmed97/audio-recording-whisper). Conjunto de dados composto por diálogos médicos e simulações de consultas clínicas padronizadas pelo formato SOAP.
+
+<picture>
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
+</picture>
 
 # 📁 Estrutura de Arquivos Principais
 
