@@ -21,20 +21,6 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
 
-## 📒 Relatório técnico
-
-O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-passo para a construção dos módulos:
-[https://github.com/marceloklotz/fiap-quarta-fase](https://github.com/marceloklotz/fiap-terceira-fase-ssp-df/blob/main/relatorio-tecnico-quarta-fase.pdf)
-
-## 📽️ Vídeo explicativo
-
-O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do seguinte link:
-
-<p align="center">
-  <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
-</p>
-<p align="center"> https://youtu.be/F-G5JFNiwdE </p>
-
 # 🚀 Componentes Principais
 
 
@@ -128,6 +114,23 @@ Os modelos foram submetidos a treinamentos fundamentados em bases de dados cient
 │   └── best.pt                       # Pesos exportados do modelo de visão ajustado
 │
 ├── MOD_Atendimento_Clinico/
-│   └── MOD_Atendimento_Clinico.ipynb # Notebook da pipeline de áudio, Whisper, análise vocal e geração do prontuário SOAP
+│   └── MOD_Atendimento_Clinico.ipynb # Notebook da pipeline de áudio, Whisper,
+│                                       análise vocal e geração do prontuário SOAP
 │
 └── README.md                         # Documentação de apresentação do repositório
+
+```
+
+## 📒 Relatório técnico
+
+O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-passo para a construção dos módulos:
+[https://github.com/marceloklotz/fiap-quarta-fase](https://github.com/marceloklotz/fiap-terceira-fase-ssp-df/blob/main/relatorio-tecnico-quarta-fase.pdf)
+
+## 📽️ Vídeo explicativo
+
+O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do seguinte link:
+
+<p align="center">
+  <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
+</p>
+<p align="center"> https://youtu.be/F-G5JFNiwdE </p>
