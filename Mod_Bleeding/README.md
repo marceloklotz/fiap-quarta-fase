@@ -1,3 +1,8 @@
+# 👩‍⚕️👨‍💻 Inteligência Artificial Multimodal na Saúde da Mulher: Visão Computacional e Análise de Áudio
+
+[![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
+[![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
+
 ## 1. 🩸 Módulo Detecção de Sangramentos (Análise de Vídeo)
 
 Esta pasta do nosso [repositório](https://github.com/marceloklotz/fiap-quarta-fase/) contém a implementação do **Módulo para Detecção de Sangramentos** em tempo real de cirurgias ginecológicas laparoscópicas, desenvolvido como parte do projeto de visão computacional do Tech Challenge (FIAP).
