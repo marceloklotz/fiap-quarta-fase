@@ -91,6 +91,51 @@ Uma solução *end-to-end* projetada para apoiar consultas de ginecologia ou obs
 
 ---
 
+## 🛠️ Detalhamento e Aplicação Prática das Tecnologias
+
+Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cada tecnologia e biblioteca desempenha um papel estratégico bem definido no código:
+
+### 🩸 Módulo de Detecção de Sangramentos (Análise de Vídeo)
+
+* **`ultralytics` (YOLOv8)**
+  * **Onde é utilizada:** No treinamento, validação e execução do modelo preditivo.
+  * **Aplicação prática:** Realiza o *fine-tuning* do modelo base `yolov8n-cls.pt` a partir das imagens do dataset *GynSurg* no notebook de treinamento (`MOD_Bleeding_Train_GPU.ipynb`). O arquivo final de pesos gerado (`best.pt`) é importado pelo script de inferência para classificar os frames cirúrgicos em tempo real.
+* **`opencv-python` (cv2)**
+  * **Onde é utilizada:** Nos scripts de manipulação de vídeo e engenharia de dados (`extract_frames.py` e `bleeding-detection.py`).
+  * **Aplicação prática:** Responsável por ler o fluxo de vídeo frame a frame, redimensionar as imagens para os requisitos de entrada do modelo e implementar a mecânica de janela deslizante (*sliding window*). Também renderiza as sobreposições na tela, como a moldura vermelha de alerta visual quando anomalias consecutivas são detectadas.
+* **`torch` (PyTorch)**
+  * **Onde é utilizada:** Como o motor (*backend*) essencial de processamento matemático profundo.
+  * **Aplicação prática:** Gerencia a alocação de memória e garante que os cálculos matemáticos do YOLOv8 utilizem aceleração por hardware (GPU/CUDA), viabilizando taxas de FPS altas e compatíveis com procedimentos cirúrgicos reais.
+* **`awscli` (Amazon S3)**
+  * **Onde é utilizada:** Na automação da infraestrutura de armazenamento e preparação de ambiente.
+  * **Aplicação prática:** Empregada através de comandos de terminal para realizar a sincronização em massa (`aws s3 sync`) do dataset de imagens ginecológicas direto para o ambiente de execução e para exportar de forma segura o modelo final treinado.
+
+### 🎙️ Módulo de Atendimento Clínico (Análise de Áudio e Texto)
+
+* **`openai-whisper`**
+  * **Onde é utilizada:** Na camada inicial de processamento e acessibilidade de áudio.
+  * **Aplicação prática:** Atua localmente como o motor de Reconhecimento Automático de Fala (ASR). Ela recebe os arquivos de áudio contendo as gravações das consultas e realiza a decodificação da voz em texto transcrito nativo em português.
+* **`librosa`**
+  * **Onde é utilizada:** Na extração local de biomarcadores acústicos (DSP - Processamento Digital de Sinais).
+  * **Aplicação prática:** Analisa matematicamente o áudio bruto sem dependência de APIs em nuvem. É usada para calcular a frequência fundamental (Pitch) — fornecendo insumos sobre o tom emocional —, detectar zonas de silêncio e metrificar pausas ou taxas de hesitação na fala da paciente.
+* **`langchain` / `langchain-core` / `langchain-openai`**
+  * **Onde é utilizada:** Na orquestração lógica de inteligência generativa.
+  * **Aplicação prática:** Constrói a esteira cognitiva utilizando a sintaxe declarativa **LCEL (LangChain Expression Language)**. Conecta as saídas textuais do Whisper aos modelos LLM, aplicando Engenharia de Prompt Defensiva para assegurar que o texto médico cru seja estruturado estritamente sob as regras e divisões internacionais do prontuário **SOAP**.
+* **`deep-translator`**
+  * **Onde é utilizada:** Na compatibilização e tradução linguística automatizada.
+  * **Aplicação prática:** Utilizada para automatizar a tradução rápida de termos biomédicos específicos durante as etapas intermediárias de processamento, evitando que barreiras linguísticas comprometam a assertividade das instruções fornecidas à inteligência artificial.
+* **`transformers` & `tiktoken`**
+  * **Onde é utilizada:** No monitoramento de fluxos textuais e governança de custos.
+  * **Aplicação prática:** O `tiktoken` faz a contagem preditiva exata e o corte preventivo dos tokens gerados pela transcrição do áudio clínico antes de enviá-los ao LLM, garantindo que o texto não ultrapasse a janela máxima de contexto da API e prevenindo erros de estouro de memória.
+
+### 📊 Utilidades Globais (Ambos os Módulos)
+
+* **`numpy` & `pandas`**
+  * **Onde são utilizadas:** Na manipulação matemática, estruturação de dados e geração de métricas.
+  * **Aplicação prática:** O `numpy` manipula de forma veloz matrizes e tensores numéricos (sejam os pixels das imagens no OpenCV ou os arrays de ondas sonoras no Librosa). O `pandas` organiza as tabelas com o histórico das predições, taxas de acerto e logs, gerando as tabelas e dados estatísticos consolidados no relatório técnico.
+ 
+---
+
 ## 📊 Datasets Utilizados
 
 Os modelos foram submetidos a treinamentos fundamentados em bases de dados científicas de referência internacional:
