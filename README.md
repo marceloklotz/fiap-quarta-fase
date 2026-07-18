@@ -151,10 +151,6 @@ Os modelos foram submetidos a treinamentos fundamentados em bases de dados cient
 
 ```
 
-<picture>
-  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
-</picture>
-
 ## 📒 Relatório técnico
 
 O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-passo para a construção dos módulos:
@@ -163,10 +159,6 @@ O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-pass
 <p align="center">
   <picture><img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/relatorio.png" alt="Realatório"></picture>
 </p>
-
-<picture>
-  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
-</picture>
 
 ## 📽️ Vídeo explicativo
 
