@@ -42,9 +42,10 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
 [![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
-![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)
-![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)
-![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)](#)
+[![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)](#)
+[![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)](#)
 
 Este repositório contém o código-fonte e as especificações técnicas desenvolvidos para o **Tech Challenge da Fase 4** da Pós-Graduação em **Inteligência Artificial para DEVs** da **FIAP (Turma 8IADT)**. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
 
