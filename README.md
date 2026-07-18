@@ -37,7 +37,7 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 -----------------------
 
-## 🚀 Componentes Principais
+# 🚀 Componentes Principais
 
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
@@ -55,25 +55,23 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 O sistema combina capacidades multimodais de **Visão Computacional** e **Processamento de Sinais de Áudio** estruturando-se em dois módulos funcionais:
 
-### 1. 🩸 Módulo Detecção de Sangramentos (Análise de Vídeo)
+## 1. 🩸 Módulo Detecção de Sangramentos (Análise de Vídeo)
 Desenvolvido para atuar no contexto macro de cirurgias ginecológicas por laparoscopia (cirurgias minimamente invasivas voltadas ao tratamento de endometriose, miomas, cistos ou gravidez ectópica).
 * **Objetivo:** Monitorar o fluxo de vídeo e classificar em tempo real a ocorrência de anomalias cirúrgicas como o sangramento intraoperatório.
 * **Abordagem Técnico-Científica:** Uma pipeline construída sobre o **YOLOv8** (modelo `yolov8n-cls.pt` ajustado por *fine-tuning*), que analisa os frames processados temporalmente via OpenCV. 
 * **Lógica Antibumping / Flickering:** Implementação de uma mecânica de janela deslizante (*sliding window*). O sistema exige a predição consistente acima do limiar de confiança em $X$ frames consecutivos para disparar alertas visuais em formato de moldura vermelha, mitigando alarmes falsos para o cirurgião.
 
-### 2. 🎙️ Módulo Atendimento Clínico (Análise de Áudio)
+## 2. 🎙️ Módulo Atendimento Clínico (Análise de Áudio)
 Uma solução *end-to-end* projetada para apoiar consultas de ginecologia ou obstetrícia a partir do áudio capturado na relação médico-paciente.
 * **Processamento Digital de Sinais (DSP):** Extração local de biomarcadores acústicos (tom de voz e taxas de hesitação) sem dependência de nuvem, preservando a latência e a privacidade de dados sensíveis da paciente.
 * **Transcrição Automatizada (ASR):** Emprego do modelo **OpenAI Whisper** de forma nativa para transcrição de áudio clínico de forma robusta e resistente a ruídos hospitalares de fundo.
 * **Estruturação Cognitiva (LLM):** Integração via sintaxe declarativa **LCEL (LangChain Expression Language)** com Engenharia de Prompt Defensiva para traduzir, contextualizar termos técnicos e gerar automaticamente um prontuário médico estruturado no padrão internacional **SOAP** (Subjetivo, Objetivo, Avaliação e Plano).
 
----
-
-## 🛠️ Detalhamento e Aplicação Prática das Tecnologias
+# 🛠️ Detalhamento e Aplicação Prática das Tecnologias
 
 Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cada tecnologia e biblioteca desempenha um papel estratégico bem definido no código:
 
-### 🩸 Módulo de Detecção de Sangramentos (Análise de Vídeo)
+## 🩸 Módulo de Detecção de Sangramentos (Análise de Vídeo)
 
 * **`ultralytics` (YOLOv8)**
   * **Onde é utilizada:** No treinamento, validação e execução do modelo preditivo.
@@ -88,7 +86,7 @@ Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cad
   * **Onde é utilizada:** Na automação da infraestrutura de armazenamento e preparação de ambiente.
   * **Aplicação prática:** Empregada através de comandos de terminal para realizar a sincronização em massa (`aws s3 sync`) do dataset de imagens ginecológicas direto para o ambiente de execução e para exportar de forma segura o modelo final treinado.
 
-### 🎙️ Módulo de Atendimento Clínico (Análise de Áudio e Texto)
+## 🎙️ Módulo de Atendimento Clínico (Análise de Áudio e Texto)
 
 * **`openai-whisper`**
   * **Onde é utilizada:** Na camada inicial de processamento e acessibilidade de áudio.
@@ -106,7 +104,7 @@ Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cad
   * **Onde é utilizada:** No monitoramento de fluxos textuais e governança de custos.
   * **Aplicação prática:** O `tiktoken` faz a contagem preditiva exata e o corte preventivo dos tokens gerados pela transcrição do áudio clínico antes de enviá-los ao LLM, garantindo que o texto não ultrapasse a janela máxima de contexto da API e prevenindo erros de estouro de memória.
 
-### 📊 Utilidades Globais (Ambos os Módulos)
+## 📊 Utilidades Globais (Ambos os Módulos)
 
 * **`numpy` & `pandas`**
   * **Onde são utilizadas:** Na manipulação matemática, estruturação de dados e geração de métricas.
