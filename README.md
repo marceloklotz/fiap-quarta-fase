@@ -46,6 +46,31 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
 [![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
 
+Este repositório contém o código-fonte e as especificações técnicas desenvolvidos no âmbito do desafio (Tech Challenge) apresentado duratne a **Quarta Fase da Pós Tech (8IADT)**, da **Faculdade de Informática e Administração Paulista (FIAP)**, conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
+
+## 👥 Integrantes do grupo
+Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
+
+- Alexandre Natã Vicente (**rm370024**) (ale.n.vicente@gmail.com)
+- Antônio Cláudio Almeida (**rm370052**) (antonioalmeida@gmail.com)
+- Cyd Ferreira Rodrigues (**rm370004**) (cydnelson@gmail.com)
+- David Catherink (**rm369997**) (d.catherinck@gmail.com)
+- Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
+
+## 📒 Relatório técnico
+
+O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-passo para a construção dos módulos:
+[https://github.com/marceloklotz/fiap-quarta-fase](https://github.com/marceloklotz/fiap-terceira-fase-ssp-df/blob/main/relatorio-tecnico-quarta-fase.pdf)
+
+## 📽️ Vídeo explicativo
+
+O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do seguinte link:
+
+<p align="center">
+  <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
+</p>
+<p align="center"> https://youtu.be/F-G5JFNiwdE </p>
+
 ### 🚀 Tecnologias e Ferramentas Utilizadas
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](#)
@@ -59,17 +84,6 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](#)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](#)
 [![Hugging Face](https://img.shields.io/badge/🌿_Hugging_Face-Transformers-FFD21E?style=flat-square)](#)
-
-Este repositório contém o código-fonte e as especificações técnicas desenvolvidos para o **Tech Challenge da Fase 4** da Pós-Graduação em **Inteligência Artificial para DEVs** da **FIAP (Turma 8IADT)**. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
-
-## 👥 Integrantes do grupo
-Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
-
-- Alexandre Natã Vicente (**rm370024**) (ale.n.vicente@gmail.com)
-- Antônio Cláudio Almeida (**rm370052**) (antonioalmeida@gmail.com)
-- Cyd Ferreira Rodrigues (**rm370004**) (cydnelson@gmail.com)
-- David Catherink (**rm369997**) (d.catherinck@gmail.com)
-- Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
 
 ## 🚀 Componentes Principais
 
