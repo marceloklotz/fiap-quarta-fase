@@ -16,7 +16,6 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
-<div align="center">
   <table width="100%" style="width: 100%; border-collapse: collapse;">
     <tr bgcolor="#0066cc">
       <td align="center" style="padding: 25px 0px;">
@@ -26,7 +25,6 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
       </td>
     </tr>
   </table>
-</div>
 
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
