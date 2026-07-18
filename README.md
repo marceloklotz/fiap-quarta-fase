@@ -21,8 +21,15 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
 
-# 🚀 Componentes Principais
 
+## 👥 Visão geral do projeto
+
+<p align="center">
+  <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
+</p>
+<p align="center"> https://youtu.be/F-G5JFNiwdE </p>
+
+# 🚀 Componentes Principais
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](#)
