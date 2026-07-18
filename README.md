@@ -16,6 +16,9 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
+<p align="center">
+  [!<img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">](#)
+</p>
 <div align="center">
   <table width="2000" style="width: 2000; border-collapse: collapse;">
     <tr bgcolor="#0066cc" style="width: 2000;">
@@ -27,10 +30,6 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
     </tr>
   </table>
 </div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
-</p>
 
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
