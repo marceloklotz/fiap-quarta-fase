@@ -9,6 +9,13 @@ Desenvolvido para atuar no contexto macro de cirurgias ginecológicas por laparo
 * **Abordagem Técnico-Científica:** Uma pipeline construída sobre o **YOLOv8** (modelo `yolov8n-cls.pt` ajustado por *fine-tuning*), que analisa os frames processados temporalmente via OpenCV. 
 * **Lógica Antibumping / Flickering:** Implementação de uma mecânica de janela deslizante (*sliding window*). O sistema exige a predição consistente acima do limiar de confiança em $X$ frames consecutivos para disparar alertas visuais em formato de moldura vermelha, mitigando alarmes falsos para o cirurgião.
 
+## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
+
+> **IMPORTANTE:** Os componentes deste repositório foram desenvolvidos exclusivamente para fins educacionais, científicos e de demonstração de viabilidade tecnológica. 
+> * **Não substituem validações médicas oficiais.**
+> * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
+> * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
+
 # 🛠️ Detalhamento e Aplicação Prática das Tecnologias
 
 Para garantir o funcionamento integrado e robusto do ecossistema multimodal, cada tecnologia e biblioteca desempenha um papel estratégico bem definido no código:
