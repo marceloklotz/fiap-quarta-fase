@@ -20,6 +20,12 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
   <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
 </p>
 <div align="center">
+
+<picture>
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
+</picture>
+
+  
   <table width="2000" style="width: 2000; border-collapse: collapse;">
     <tr bgcolor="#0066cc" style="width: 2000;">
       <td align="center" style="padding: 35px 0px;">
