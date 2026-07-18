@@ -41,7 +41,7 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 # 👩‍⚕️ Inteligência Artificial Multimodal na Saúde da Mulher: Visão Computacional e Análise de Áudio
 
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
-![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)
+[![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)
 ![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)
