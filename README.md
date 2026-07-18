@@ -27,9 +27,8 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 </details>
 
 ```text
-┌────────────────────────────────────────────────────────┐
-│                  INTEGRANTES DO GRUPO                  │
-└────────────────────────────────────────────────────────┘
+
+<p align="center"> ##  👥 INTEGRANTES DO GRUPO </p>
 
 ```
 
