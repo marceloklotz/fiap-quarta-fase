@@ -168,12 +168,16 @@ Os modelos foram submetidos a treinamentos fundamentados em bases de dados cient
 
 ---
 
-## 🛠️ Tecnologias, Bibliotecas e Serviços
+## 📁 Estrutura de Arquivos Principais
 
-O projeto foi construído utilizando o ecossistema Python 3.12 e integra os seguintes componentes:
-
-* **
+```text
+├── MOD_Bleeding/
+│   ├── MOD_Bleeding_Train_GPU.ipynb  # Notebook para o ajuste fino (fine-tuning) do YOLOv8 via GPU
+│   ├── extract_frames.py             # Script de processamento temporal e espacial usando OpenCV
+│   ├── bleeding-detection.py         # Script para simulação e inferência em tempo real com lógica de alertas
+│   └── best.pt                       # Pesos exportados do modelo de visão ajustado
+│
 ├── MOD_Atendimento_Clinico/
-│   └── MOD_Atendimento_Clinico.ipynb # Notebook da pipeline de áudio, Whisper, análise vocal e geração do prontuário SOAP [cite: 958]
+│   └── MOD_Atendimento_Clinico.ipynb # Notebook da pipeline de áudio, Whisper, análise vocal e geração do prontuário SOAP
 │
 └── README.md                         # Documentação de apresentação do repositório
