@@ -2,7 +2,7 @@
 
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
 [![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
-[![Módulo Detecção de Sangramentos](https://img.shields.io/badge/1.Modulo_Detecção_de_Sangramentos-red?style=for-the-badge)](https://github.com/marceloklotz/fiap-quarta-fase/edit/main/Mod_Bleeding/)
+[![Módulo Detecção de Sangramentos](https://img.shields.io/badge/1.Modulo_Detecção_de_Sangramentos-red?style=for-the-badge)](#)
 
 ## 1. 🩸 Módulo Detecção de Sangramentos (Análise de Vídeo)
 
