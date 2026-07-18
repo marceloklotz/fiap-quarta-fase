@@ -37,6 +37,8 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 -----------------------
 
+## 🚀 Componentes Principais
+
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](#)
 [![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-FF6F00?style=flat-square&logo=ultralytics&logoColor=white)](#)
@@ -49,8 +51,6 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](#)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](#)
 [![Hugging Face](https://img.shields.io/badge/🌿_Hugging_Face-Transformers-FFD21E?style=flat-square)](#)
-
-## 🚀 Componentes Principais
 
 O sistema combina capacidades multimodais de **Visão Computacional** e **Processamento de Sinais de Áudio** estruturando-se em dois módulos funcionais:
 
