@@ -16,22 +16,10 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
-
 <picture>
   <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
 </picture>
   
-  <table width="2000" style="width: 2000; border-collapse: collapse;">
-    <tr bgcolor="#0066cc" style="width: 2000;">
-      <td align="center" style="padding: 35px 0px;">
-        <font size="6" color="#0066cc"" face="sans-serif">
-          <b>👥 INTEGRANTES DO GRUPO</b>
-        </font>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
 
@@ -40,6 +28,10 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
 - Cyd Ferreira Rodrigues (**rm370004**) (cydnelson@gmail.com)
 - David Catherink (**rm369997**) (d.catherinck@gmail.com)
 - Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
+
+<picture>
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
+</picture>
 
 ## 👥 Visão geral do projeto
 
