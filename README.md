@@ -29,7 +29,7 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="80px" alt="Integrantes do Grupo">
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
 </p>
 
 ## 👥 Integrantes do grupo
