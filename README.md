@@ -40,7 +40,9 @@ Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de
   <br><sub>Apresentação com a visão geral do projeto. Slides gerados via NkLM, com transição de 7 segundos.</sub>
 </p>
 
---------
+<picture>
+  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
+</picture>
 
 # 🚀 Componentes Principais
 
