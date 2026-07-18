@@ -16,21 +16,17 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
-
-<details>
-<summary>👥 <b>Integrantes do grupo</b></summary>
-
-* [Nome do Integrante 1](https://github.com/usuario1) - RM 12345
-* [Nome do Integrante 2](https://github.com/usuario2) - RM 67890
-* [Nome do Integrante 3](https://github.com/usuario3) - RM 11121
-
-</details>
-
-```box
-
-👥 INTEGRANTES DO GRUPO
-
-```
+<div align="center">
+  <table width="100%" style="width: 100%; border-collapse: collapse;">
+    <tr bgcolor="#0066cc">
+      <td align="center" style="padding: 25px 0px;">
+        <font size="6" color="#ffffff" face="sans-serif">
+          <b>👥 INTEGRANTES DO GRUPO</b>
+        </font>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 👥 Integrantes do grupo
 Os membros do grupo são compostos pelos seguintes servidores da **Secretaria de Segurança Pública do Distrito Federal (SSP/DF)**:
