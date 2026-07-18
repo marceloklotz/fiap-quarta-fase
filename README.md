@@ -35,8 +35,6 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 </p>
 <p align="center"> https://youtu.be/F-G5JFNiwdE </p>
 
------------------------
-
 # 🚀 Componentes Principais
 
 
