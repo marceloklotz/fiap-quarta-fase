@@ -1,5 +1,8 @@
 # 🏫👨‍💻 Tech Challenge - Pós Tech (8IADT) FIAP - Fase 4: Visão Computacional Aplicada
 
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)](#)
+[![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)](#)
+[![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)](#)
 
 Este repositório contém um conjunto de soluções em visão computacional para análise de vídeos, com foco na saúde e segurança da mulher, tendo-se em vista o escopo do desafio (Tech Challenge) apresentado no âmbito da quarta fase da Pós Tech (8IADT), da Faculdade de Informática e Administração Paulista (FIAP), conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. 
 
@@ -43,9 +46,19 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 [![FIAP Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
 [![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)](#)
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)](#)
-[![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)](#)
-[![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)](#)
+### 🚀 Tecnologias e Ferramentas Utilizadas
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](#)
+[![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-FF6F00?style=flat-square&logo=ultralytics&logoColor=white)](#)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](#)
+[![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-412991?style=flat-square&logo=openai&logoColor=white)](#)
+[![LangChain](https://img.shields.io/badge/LangChain-LCEL-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](#)
+[![Amazon S3](https://img.shields.io/badge/Amazon_S3-AWS-232F3E?style=flat-square&logo=amazons3&logoColor=white)](#)
+[![Librosa](https://img.shields.io/badge/Librosa-DSP-993333?style=flat-square)](#)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](#)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](#)
+[![Hugging Face](https://img.shields.io/badge/🌿_Hugging_Face-Transformers-FFD21E?style=flat-square)](#)
 
 Este repositório contém o código-fonte e as especificações técnicas desenvolvidos para o **Tech Challenge da Fase 4** da Pós-Graduação em **Inteligência Artificial para DEVs** da **FIAP (Turma 8IADT)**. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
 
