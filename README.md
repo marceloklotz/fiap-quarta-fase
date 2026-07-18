@@ -6,7 +6,7 @@
 Este repositório contém o código-fonte e as especificações técnicas desenvolvidos no âmbito do desafio (Tech Challenge) apresentado durante a **Quarta Fase da Pós Tech (8IADT)**, da **Faculdade de Informática e Administração Paulista (FIAP)**, conforme requisitos contidos no [PDF](https://github.com/marceloklotz/fiap-quarta-fase/blob/main/Desafio%20-%20Fase%204%20-%20Tech%20challenge%20Secretaria.pdf) disponível no presente repositório. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
 
 <p align="center">
-  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/infografico.png" alt="Visão geral do projeto"> 
+  <picture><img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/infografico.png" alt="Visão geral do projeto"></picture>
 </p>
 
 ## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
@@ -16,15 +16,10 @@ Este repositório contém o código-fonte e as especificações técnicas desenv
 > * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
 > * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
-</p>
-<div align="center">
 
 <picture>
   <img src="https://img.shields.io/badge/-ebebeb?style=for-the-badge&logoColor=black" width="100%" height="10px" alt="Integrantes do Grupo">
 </picture>
-
   
   <table width="2000" style="width: 2000; border-collapse: collapse;">
     <tr bgcolor="#0066cc" style="width: 2000;">
