@@ -73,8 +73,6 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 -----------------------
 
-## 🚀 Tecnologias e Ferramentas Utilizadas
-
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](#)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](#)
 [![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-FF6F00?style=flat-square&logo=ultralytics&logoColor=white)](#)
