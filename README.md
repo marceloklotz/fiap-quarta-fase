@@ -35,3 +35,81 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
   <img src="https://i.ytimg.com/vi/F-G5JFNiwdE/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">
 </p>
 <p align="center"> https://youtu.be/F-G5JFNiwdE </p>
+
+
+# 👩‍⚕️ Inteligência Artificial Multimodal na Saúde da Mulher: Visão Computacional e Análise de Áudio
+
+[![(FIAP) Postech em IA para Devs](https://img.shields.io/badge/FIAP-Postech%20IA%20para%20Devs-blue?style=for-the-badge)](https://www.fiap.com.br/)
+![Fase 4 - Tech Challenge](https://img.shields.io/badge/Fase_4-Tech_Challenge-purple?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)
+![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?style=flat-square)
+![OpenAI Whisper](https://img.shields.io/badge/OpenAI-Whisper-brightgreen?style=flat-square)
+
+[cite_start]Este repositório contém o código-fonte e as especificações técnicas desenvolvidos para o **Tech Challenge da Fase 4** da Pós-Graduação em **Inteligência Artificial para DEVs** da **FIAP (Turma 8IADT)**. [cite_start]O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa[cite: 945].
+
+---
+
+## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
+
+> [cite_start]**IMPORTANTE:** Os componentes deste repositório foram desenvolvidos exclusivamente para fins educacionais, científicos e de demonstração de viabilidade tecnológica[cite: 953]. 
+> [cite_start]* **Não substituem validações médicas oficiais.** [cite: 953]
+> * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.** [cite: 953]
+> [cite_start]* Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes[cite: 954].
+
+---
+
+## 🚀 Componentes Principais
+
+[cite_start]O sistema combina capacidades multimodais de **Visão Computacional** e **Processamento de Sinais de Áudio** estruturando-se em dois módulos funcionais[cite: 945]:
+
+### 1. 🩸 Módulo Detecção de Sangramentos (Análise de Vídeo)
+[cite_start]Desenvolvido para atuar no contexto macro de cirurgias ginecológicas por laparoscopia (cirurgias minimamente invasivas voltadas ao tratamento de endometriose, miomas, cistos ou gravidez ectópica)[cite: 948, 960, 961].
+* [cite_start]**Objetivo:** Monitorar o fluxo de vídeo e classificar em tempo real a ocorrência de anomalias cirúrgicas como o sangramento intraoperatório[cite: 948, 950].
+* [cite_start]**Abordagem Técnica:** Uma pipeline construída sobre o **YOLOv8** (modelo `yolov8n-cls.pt` ajustado por *fine-tuning*) [cite: 949, 967, 970][cite_start], que analisa os frames processados temporalmente via OpenCV[cite: 970]. 
+* **Lógica Antibumping / Flickering:** Implementação de uma mecânica de janela deslizante (*sliding window*). [cite_start]O sistema exige a predição consistente acima do limiar de confiança em $X$ frames consecutivos para disparar alertas visuais em formato de moldura vermelha, mitigando alarmes falsos para o cirurgião[cite: 973, 974, 975].
+
+### 2. 🎙️ Módulo Atendimento Clínico (Análise de Áudio)
+[cite_start]Uma solução *end-to-end* projetada para apoiar consultas de ginecologia ou obstetrícia a partir do áudio capturado na relação médico-paciente[cite: 951, 952].
+* [cite_start]**Processamento Digital de Sinais (DSP):** Extração local de biomarcadores acústicos (tom de voz e taxas de hesitação) sem dependência de nuvem, preservando a latência e a privacidade de dados sensíveis da paciente[cite: 698].
+* [cite_start]**Transcrição Automatizada (ASR):** Emprego do modelo **OpenAI Whisper** de forma nativa para transcrição de áudio clínico de forma robusta e resistente a ruídos hospitalares de fundo[cite: 657, 746].
+* [cite_start]**Estruturação Cognitiva (LLM):** Integração via sintaxe declarativa **LCEL (LangChain Expression Language)** [cite: 769] [cite_start]com Engenharia de Prompt Defensiva para traduzir, contextualizar termos técnicos e gerar automaticamente um prontuário médico estruturado no padrão internacional **SOAP** (Subjetivo, Objetivo, Avaliação e Plano)[cite: 615, 769].
+
+---
+
+## 📊 Datasets Utilizados
+
+Os modelos foram submetidos a treinamentos fundamentados em bases de dados científicas de referência internacional:
+
+* [cite_start]**Vídeo — Dataset GynSurg:** [Gynecology Laparoscopic Surgery Dataset](https://ftp.itec.aau.at/datasets/GynSurge/)[cite: 949, 959]. [cite_start]Base contendo registros cirúrgicos reais anotados por especialistas clínicos da Universidade Médica de Viena e da Universidade Médica de Toronto[cite: 962, 964]. [cite_start]Foram utilizados cerca de 2.041 recortes de vídeo curtos (~5,11 GB de dados totais) divididos estritamente em[cite: 966, 981]:
+  * [cite_start]**Treino (70%):** 684 com sangramento / 745 sem sangramento[cite: 983].
+  * [cite_start]**Validação (20%):** 194 com sangramento / 213 sem sangramento[cite: 983].
+  * [cite_start]**Teste (10%):** 99 com sangramento / 106 sem sangramento[cite: 983].
+* [cite_start]**Áudio — Audio Recording Whisper:** [Disponível via Kaggle](https://www.kaggle.com/datasets/najamahmed97/audio-recording-whisper)[cite: 959]. [cite_start]Conjunto de dados composto por diálogos médicos e simulações de consultas clínicas padronizadas pelo formato SOAP[cite: 614].
+
+---
+
+## 🛠️ Tecnologias, Bibliotecas e Serviços
+
+[cite_start]O projeto foi construído utilizando o ecossistema Python 3.12 e integra os seguintes componentes[cite: 431, 679]:
+
+* [cite_start]**Core ML & Visão:** `ultralytics` (YOLOv8) [cite: 311, 967][cite_start], `opencv-python` (cv2)[cite: 985].
+* [cite_start]**Áudio & DSP:** `openai-whisper` [cite: 679][cite_start], `librosa` (extração de pitch, splits e tom)[cite: 679, 721].
+* [cite_start]**Orquestração e LLM:** `langchain` / `langchain-core` (arquitetura LCEL)[cite: 679, 769].
+* [cite_start]**Utilidades de Texto:** `deep-translator` (tradução livre por web scraping) [cite: 679, 814][cite_start], `transformers`, `tiktoken`[cite: 679].
+* [cite_start]**Infraestrutura em Nuvem (Cloud):** **Amazon S3** (`awscli`), utilizado para o armazenamento seguro e sincronização otimizada (`aws s3 sync`) do dataset de imagens e exportação automatizada do arquivo de pesos finais do modelo treinado (`best.pt`)[cite: 206, 391, 885, 886].
+
+---
+
+## 📁 Estrutura de Arquivos Principais
+
+```text
+├── MOD_Bleeding/
+│   ├── MOD_Bleeding_Train_GPU.ipynb  # Notebook para o ajuste fino (fine-tuning) do YOLOv8 via GPU [cite: 958]
+│   ├── extract_frames.py             # Script de processamento temporal e espacial usando OpenCV [cite: 989]
+│   ├── bleeding-detection.py         # Script para simulação e inferência em tempo real com lógica de alertas [cite: 958]
+│   └── best.pt                       # Pesos exportados do modelo de visão ajustado [cite: 958]
+│
+├── MOD_Atendimento_Clinico/
+│   └── MOD_Atendimento_Clinico.ipynb # Notebook da pipeline de áudio, Whisper, análise vocal e geração do prontuário SOAP [cite: 958]
+│
+└── README.md                         # Documentação de apresentação do repositório
