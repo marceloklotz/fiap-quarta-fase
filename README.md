@@ -62,16 +62,14 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 Este repositório contém o código-fonte e as especificações técnicas desenvolvidos para o **Tech Challenge da Fase 4** da Pós-Graduação em **Inteligência Artificial para DEVs** da **FIAP (Turma 8IADT)**. O projeto propõe um ecossistema multimodal focado no suporte e na segurança da saúde da mulher, dividido em dois módulos principais: análise preditiva de vídeo intraoperatório e automação de prontuários via inteligência vocal e generativa.
 
----
+## 👥 Integrantes do grupo
+Os membros do grupo são compostos pelos seguintes servidores da Secretaria de Segurança Pública do Distrito Federal (SSP/DF):
 
-## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
-
-> **IMPORTANTE:** Os componentes deste repositório foram desenvolvidos exclusivamente para fins educacionais, científicos e de demonstração de viabilidade tecnológica. 
-> * **Não substituem validações médicas oficiais.**
-> * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
-> * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
-
----
+- Alexandre Natã Vicente (**rm370024**) (ale.n.vicente@gmail.com)
+- Antônio Cláudio Almeida (**rm370052**) (antonioalmeida@gmail.com)
+- Cyd Ferreira Rodrigues (**rm370004**) (cydnelson@gmail.com)
+- David Catherink (**rm369997**) (d.catherinck@gmail.com)
+- Marcelo Macedo Klotz (**rm370010**) (marceloklotz@gmail.com) 
 
 ## 🚀 Componentes Principais
 
@@ -88,6 +86,13 @@ Uma solução *end-to-end* projetada para apoiar consultas de ginecologia ou obs
 * **Processamento Digital de Sinais (DSP):** Extração local de biomarcadores acústicos (tom de voz e taxas de hesitação) sem dependência de nuvem, preservando a latência e a privacidade de dados sensíveis da paciente.
 * **Transcrição Automatizada (ASR):** Emprego do modelo **OpenAI Whisper** de forma nativa para transcrição de áudio clínico de forma robusta e resistente a ruídos hospitalares de fundo.
 * **Estruturação Cognitiva (LLM):** Integração via sintaxe declarativa **LCEL (LangChain Expression Language)** com Engenharia de Prompt Defensiva para traduzir, contextualizar termos técnicos e gerar automaticamente um prontuário médico estruturado no padrão internacional **SOAP** (Subjetivo, Objetivo, Avaliação e Plano).
+
+## ⚠️ Aviso de Uso Acadêmico e Isenção de Responsabilidade
+
+> **IMPORTANTE:** Os componentes deste repositório foram desenvolvidos exclusivamente para fins educacionais, científicos e de demonstração de viabilidade tecnológica. 
+> * **Não substituem validações médicas oficiais.**
+> * **Não estão aptos para embasar decisões clínicas em tempo real, realizar diagnósticos ou apoiar triagens hospitalares.**
+> * Toda e qualquer interpretação ou uso derivado deste código deve ficar estritamente sob a supervisão de profissionais de saúde competentes.
 
 ---
 
