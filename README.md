@@ -162,7 +162,7 @@ O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-pass
 
 ## 📽️ Vídeo explicativo
 
-O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do seguinte link:
+O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do link abaixo:
 
 <p align="center">
 <picture>
