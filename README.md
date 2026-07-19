@@ -165,6 +165,8 @@ O Relatório Técnico, disponível pelo link abaixo, detalha todo o passo-a-pass
 O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi disponbilizado a partir do seguinte link:
 
 <p align="center">
-  [<img src="https://i.ytimg.com/vi/uGLNE_rOOoI/hqdefault.jpg" alt="FIAP - TECH CHALENGE (QUARTA FASE)">](https://www.youtube.com/watch?v=uGLNE_rOOoI)
+<picture>
+  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/tela-youtube.png" width="100%" height="10px" alt="Integrantes do Grupo">(https://www.youtube.com/watch?v=uGLNE_rOOoI)
+</picture>
 </p>
 <p align="center"> https://www.youtube.com/watch?v=uGLNE_rOOoI </p>
