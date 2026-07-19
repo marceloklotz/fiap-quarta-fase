@@ -166,7 +166,7 @@ O vídeo explicativo sobre a metologia, resultados e código-fonte utilizado foi
 
 <p align="center">
 <picture>
-  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/tela-youtube.png" width="100%" height="10px" alt="Integrantes do Grupo">(https://www.youtube.com/watch?v=uGLNE_rOOoI)
+  <img src="https://github.com/marceloklotz/fiap-quarta-fase/blob/main/assets/tela-youtube.png" width="100%" alt="Integrantes do Grupo">
 </picture>
 </p>
-<p align="center"> https://www.youtube.com/watch?v=uGLNE_rOOoI </p>
+<p align="center"> Acesso ao vídeo: https://www.youtube.com/watch?v=uGLNE_rOOoI </p>
